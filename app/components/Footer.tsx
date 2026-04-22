@@ -62,7 +62,7 @@ export default function Footer() {
       </div>
       
       <div className="border-t border-dorado-oxy mt-6 pt-4 text-center text-sm opacity-75">
-        © 2024 OxyVitalité Wellness - Todos los derechos reservados
+        © 2026 OxyVitalité Wellness - Todos los derechos reservados
       </div>
     </footer>
   )
