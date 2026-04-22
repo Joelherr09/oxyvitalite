@@ -21,8 +21,8 @@ export default function Home() {
       {/* Banner promocional de apertura */}
       <PromoBanner />
 
-      {/* Galería de imágenes desde Instagram (9:16)   <ImageGallery /> */}
-      
+      {/* Galería de imágenes desde Instagram (9:16)    */}
+      <ImageGallery />
 
       {/* Formulario de contacto / reserva */}
       <ContactForm />
