@@ -14,3 +14,8 @@
     border-color: var(--color-dorado-oxy);
   }
 }
+
+
+html {
+  scroll-behavior: smooth;
+}
