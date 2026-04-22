@@ -81,7 +81,7 @@ export default function Hero() {
           Recuperación física, claridad mental y bienestar integral.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button
             onClick={scrollToContact}
             className="bg-[#af863e] px-8 py-3 rounded-lg font-bold text-lg hover:scale-105 transition shadow-lg"
