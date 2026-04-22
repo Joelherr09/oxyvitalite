@@ -1,14 +1,23 @@
-import { FaInstagram, FaEnvelope, FaPhone, FaWhatsapp } from 'react-icons/fa'
+import { FaInstagram, FaEnvelope, FaPhone, FaWhatsapp, FaMapMarkedAlt, FaMapMarkerAlt } from 'react-icons/fa'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
     <footer className="bg-verde-oxy text-white py-8 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
         <div>
-          <h3 className="font-bold text-xl mb-3">OxyVitalité Wellness</h3>
+          <div className="flex items-center gap-3">
+            <Image src="/logo-hero.png" alt="OxyVitalité Logo" width={1000} height={400} className="h-12 w-auto" />
+          </div>
           <p>Oxigenación hiperbárica de alto nivel</p>
-          <p className="mt-2 text-sm opacity-80">📍 Próximamente en Coquimbo</p>
+            <p className="flex items-start gap-2">
+              <FaMapMarkerAlt className="text-dorado-oxy mt-1 flex-shrink-0" /> 
+              <span className="text-sm">
+                Los Perales Edif 2 0679 DP 902<br />
+                Serena Pacífico, La Serena, Chile
+              </span>
+            </p>
         </div>
         
         <div>
@@ -32,19 +41,19 @@ export default function Footer() {
             </p>
             <p className="flex items-center gap-2">
               <FaEnvelope className="text-dorado-oxy" /> 
-              <a href="mailto:contacto@oxyvitalite.cl" className="hover:text-dorado-oxy transition">
-                contacto@oxyvitalite.cl
+              <a href="mailto:oxyvitalitewellness@gmail.com" className="hover:text-dorado-oxy transition">           
+                oxyvitalitewellness@gmail.com
               </a>
             </p>
             <p className="flex items-center gap-2">
               <FaPhone className="text-dorado-oxy" /> 
-              <a href="tel:+569XXXXXXXX" className="hover:text-dorado-oxy transition">
-                +56 9 XXXX XXXX
+              <a href="tel:+56975845700" className="hover:text-dorado-oxy transition">
+                +56 9 7584 5700
               </a>
             </p>
             <p className="flex items-center gap-2">
               <FaWhatsapp className="text-green-400" /> 
-              <a href="https://wa.me/569XXXXXXXX" target="_blank" rel="noopener noreferrer" className="hover:text-dorado-oxy transition">
+              <a href="https://wa.me/56975845700" target="_blank" rel="noopener noreferrer" className="hover:text-dorado-oxy transition">
                 Escríbenos por WhatsApp
               </a>
             </p>

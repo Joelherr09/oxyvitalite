@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import PromoBanner from "./components/PromoBanner";
 import ImageGallery from "./components/ImageGallery";
 import ContactForm from "./components/ContactForm";
+import LocationMap from "./components/LocationMap";
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
 
       {/* Galería de imágenes desde Instagram (9:16)    */}
       <ImageGallery />
+
+      <LocationMap />
 
       {/* Formulario de contacto / reserva */}
       <ContactForm />

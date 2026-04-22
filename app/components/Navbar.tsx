@@ -9,10 +9,10 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <nav className="bg-verde-oxy text-white py-4 px-6 md:px-12 sticky top-0 z-50 shadow-lg">
+    <nav className="bg-verde-oxy text-white py-4 px-6 md:px-12 sticky top-0 z-50000 shadow-lg">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center gap-3">
-          <Image src="/logo-hero.png" alt="OxyVitalité Logo" width={400} height={400} className="h-12 w-auto" />
+          <Image src="/logo-hero.png" alt="OxyVitalité Logo" width={1000} height={400} className="h-12 w-auto" />
         </div>
         
         {/* Desktop Menu */}
