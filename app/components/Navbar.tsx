@@ -44,9 +44,9 @@ export default function Navbar() {
             <Link href="#servicios" className="hover:text-dorado-oxy transition" onClick={() => setIsMenuOpen(false)}>¿Para quién?</Link>
             <Link href="#galeria" className="hover:text-dorado-oxy transition" onClick={() => setIsMenuOpen(false)}>Galería</Link>
             <Link href="#contacto" className="hover:text-dorado-oxy transition" onClick={() => setIsMenuOpen(false)}>Contacto</Link>
-            <button className="bg-dorado-oxy px-5 py-2 rounded-lg font-semibold hover:opacity-90 transition w-full">
+            <Link href="#contacto" className="bg-dorado-oxy px-5 py-2 rounded-lg font-semibold hover:opacity-90 transition w-full">
               Reserva tu cupo
-            </button>
+            </Link>
           </div>
         </div>
       )}
